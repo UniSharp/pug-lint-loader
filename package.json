@@ -1,16 +1,18 @@
 {
-  "name": "pug-lint-loader",
-  "version": "0.0.4",
-  "description": "Pug linter for webpack",
+  "name": "vue-pug-lint-loader",
+  "version": "0.0.1",
+  "description": "Vue pug linter for webpack",
   "main": "index.js",
-  "author": "Jack Works <zjwpeter@gmail.com>",
+  "author": "Sasaya <sasaya@unisharp.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Jack-Works/pug-lint-loader",
+  "homepage": "https://github.com/UniSharp/vue-pug-lint-loader",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jack-Works/pug-lint-loader.git"
+    "url": "git+https://github.com/UniSharp/vue-pug-lint-loader.git"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "htmlparser2": "^3.9.2",
     "loader-utils": "^1.0.3",
     "pug-lint": "^2.4.0"
   }
