@@ -11,7 +11,10 @@ var cheerio = require('cheerio');
 var htmlparser = require('htmlparser2');
 
 module.exports = function (content) {
+    if (this.resourceQuery) return content;
+
     this.cacheable();
+
     var config = webpack_util.getOptions(this);
 
     if(!configured) linter.configure(parse(config));
